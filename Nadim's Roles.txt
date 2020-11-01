@@ -1,9 +1,10 @@
 Create business functions that manages the flight schedules and its ticket sales. 
 
 Additional resources to build create such functions:
-1. PHP MySQL Login System : https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
+1. TutorialRepublic's PHP MySQL Login System : https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
 2. How to use Git in VSCode: https://code.visualstudio.com/docs/editor/versioncontrol 
 3. Github & VS Code Video Tutorial Series: https://www.youtube.com/playlist?list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi
+4. CodeShack.io's Secure Login System with PHP and MySQL: https://codeshack.io/secure-login-system-php-mysql/ 
 
 
 Progress of the building the functions:
