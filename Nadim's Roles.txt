@@ -18,4 +18,5 @@ Progress of the building the functions:
 2. Now create a user authentication login system function for a database 
    that stores the data of managers and staffs. 
 3. Created a folder dedicated to user login system.
-4. Created a index page dedicated to login of the user(manager/staff).    
+4. Created a index page dedicated to login of the user(manager/staff).
+5. Created a CSS file dedicated to the design of the index page.    
