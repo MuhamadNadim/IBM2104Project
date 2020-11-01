@@ -10,9 +10,11 @@ Additional resources to build create such functions:
 Progress of the building the functions:
 
 (31/10/2020)
-Was just starting to build a database foundation. 
-Tomorrow (1/11/2020), learn how to upload this folder to github and how to version control.  
+1. Was just starting to build a database foundation. 
+2. Tomorrow (1/11/2020), learn how to upload this folder to github and how to version control.  
 
 (1/11/2020)
-Uploaded the whole project folder into Github. Now create a user authentication login system function
-for a database that stores the data of managers and staffs. 
+1. Uploaded the whole project folder into Github. 
+2. Now create a user authentication login system function for a database 
+   that stores the data of managers and staffs. 
+3. Created a folder dedicated to user login system.   
