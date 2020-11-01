@@ -1,0 +1,14 @@
+body {
+    font-family: calibri;
+}
+
+.login {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.login h1 {
+    text-align: center;
+    /* padding: 20px 0 20px 0; */
+}
+

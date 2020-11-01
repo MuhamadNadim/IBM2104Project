@@ -17,4 +17,5 @@ Progress of the building the functions:
 1. Uploaded the whole project folder into Github. 
 2. Now create a user authentication login system function for a database 
    that stores the data of managers and staffs. 
-3. Created a folder dedicated to user login system.   
+3. Created a folder dedicated to user login system.
+4. Created a index page dedicated to login of the user(manager/staff).    
