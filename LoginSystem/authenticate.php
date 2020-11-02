@@ -4,6 +4,8 @@
 
 <title> Login Authentication  </title>  
 
+<link rel = "stylesheet" href="style.css">
+
 <style> 
 
 body {
