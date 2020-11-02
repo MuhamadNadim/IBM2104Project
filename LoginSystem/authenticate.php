@@ -6,14 +6,6 @@
 
 <link rel = "stylesheet" href="style.css">
 
-<style> 
-
-body {
-    font-family; calibri;
-}
-
-</style>
-
 </head>
 
 
