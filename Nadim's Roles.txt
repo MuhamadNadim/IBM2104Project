@@ -19,4 +19,12 @@ Progress of the building the functions:
    that stores the data of managers and staffs. 
 3. Created a folder dedicated to user login system.
 4. Created a index page dedicated to login of the user(manager/staff).
-5. Created a CSS file dedicated to the design of the index page.    
+5. Created a CSS file dedicated to the design of the index page. 
+
+(2/11/2020)
+1. Created the authentication (authenticate.php) page, home (home.php) page, logout (logout.php) page,
+   and profile (profile.php) page. 
+
+2. For a greater understanding and integration of the project's codes into the finalized codes; remove  and/or 
+   redesign some codes. Redesign can be in terms of database query design, the PHP codes and 
+   the appearance of the pages.     
