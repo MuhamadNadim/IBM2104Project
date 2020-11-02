@@ -12,3 +12,63 @@ body {
     /* padding: 20px 0 20px 0; */
 }
 
+.navtop {
+	height: 60px;
+	width: 100%;
+	border: 0;
+}
+
+.navtop div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+
+.navtop div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+}
+
+.content > p table td, .content > div table td {
+	padding: 5px;
+}
+
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
