@@ -28,3 +28,7 @@ Progress of the building the functions:
 2. For a greater understanding and integration of the project's codes into the finalized codes; remove  and/or 
    redesign some codes. Redesign can be in terms of database query design, the PHP codes and 
    the appearance of the pages.     
+
+(8/11/2020)
+1. Redesign the index file to input the work email instead of username. Redesign the database that correlates with 
+   it.  
