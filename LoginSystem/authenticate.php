@@ -51,11 +51,11 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE email = ?')) 
             header('Location: home.php');
         } else {
             // Incorrect password
-            echo '<h3>Incorrect username and/or password!</h3>';
+            echo '<h3>Incorrect username and/or password! Statement 1 </h3>';
         }
     } else {
         // Incorrect username
-        echo '<h3>Incorrect username and/or password!</h3>';
+        echo '<h3>Incorrect username and/or password! Statement 2 </h3>';
     }
 	$stmt->close();
 }
