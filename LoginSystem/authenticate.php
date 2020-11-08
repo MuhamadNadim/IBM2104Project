@@ -46,7 +46,7 @@ if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE email = ?')) 
             // Create sessions so we know the user is logged in, they basically act like cookies but remember the data on the server.
             session_regenerate_id();
             $_SESSION['loggedin'] = TRUE;
-            $_POST['fullname'];
+            $_SESSION['fullname'];
             $_SESSION['id'] = $id;
             header('Location: home.php');
         } else {
