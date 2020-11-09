@@ -42,7 +42,7 @@ $stmt->close();
 <div class="content">
 
 <h2>Home Page</h2>
-<p>Welcome back, <?=$fullname?>!</p>
+<p>Welcome back, <?$_SESSION['name']?>!</p>
 
 </div>
 
