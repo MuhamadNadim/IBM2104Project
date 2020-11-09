@@ -5,6 +5,16 @@ session_start();
 if (!isset($_SESSION['loggedin'])) {
 	header('Location: index.html');
 	exit;
+
+// We don't have the fullname info stored in sessions so 
+// instead we can get the results from the database.
+$stmt = $con->prepare('SELECT fullname FROM accounts WHERE id = ?');
+// In this case we can use the account ID to get the account info.
+$stmt->bind_param('i', $_SESSION['id']);
+$stmt->execute();
+$stmt->bind_result($fullname);
+$stmt->fetch();
+$stmt->close();	
 }
 ?>
 
@@ -32,7 +42,7 @@ if (!isset($_SESSION['loggedin'])) {
 <div class="content">
 
 <h2>Home Page</h2>
-<p>Welcome back, <?=$_SESSION['name']?>!</p>
+<p>Welcome back, <?=$fullname?>!</p>
 
 </div>
 
