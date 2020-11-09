@@ -32,3 +32,6 @@ Progress of the building the functions:
 (8/11/2020)
 1. Redesign the index file to input the work email instead of username. Redesign the database that correlates with 
    it.  
+
+(9/11/2020)
+1. Solve the home page's data fetching issue to display the account's full name from fullname variable.     
