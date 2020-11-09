@@ -37,7 +37,7 @@ if ($stmt = $con->prepare('SELECT id, password, fullname FROM accounts WHERE ema
 	// Store the result so we can check if the account exists in the database.
     $stmt->store_result();
     if ($stmt->num_rows > 0) {
-        $stmt->bind_result($id, $password,$fullname);
+        $stmt->bind_result($id, $password, $fullname);
         $stmt->fetch();
         // Account exists, now we verify the password.
         // Note: remember to use password_hash in your registration file to store the hashed passwords.
@@ -47,7 +47,7 @@ if ($stmt = $con->prepare('SELECT id, password, fullname FROM accounts WHERE ema
             // act like cookies but remember the data on the server.
             session_regenerate_id();
             $_SESSION['loggedin'] = TRUE;
-            $_SESSION['name'] = $_POST['fullname'];
+            $_SESSION['fullname'] = $fullname;
             $_SESSION['id'] = $id;
             header('Location: home.php');
         } else {
