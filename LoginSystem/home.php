@@ -32,7 +32,7 @@ if (!isset($_SESSION['loggedin'])) {
 <div class="content">
 
 <h2>Home Page</h2>
-<p>Welcome to Emirates Airlines' Employee Homepage, <?$_SESSION['name']?>!</p>
+<p>Welcome to Emirates Airlines' Staff Homepage, <?$_SESSION['name']?>!</p>
 
 </div>
 
