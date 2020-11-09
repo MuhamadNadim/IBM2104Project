@@ -36,6 +36,7 @@ $stmt->close();
 
 <div>
 <h1>Emirates Airline Staff</h1>
+<a href="home.php">Home</a>
 <a href="profile.php">Profile</a>
 <a href="logout.php">Logout</a>
 </div>
