@@ -1,4 +1,4 @@
-Create business functions that manages the flight schedules and its ticket sales. 
+Assignment Task: Create business functions that manages the flight schedules and its ticket sales. 
 
 Additional resources to build create such functions:
 1. TutorialRepublic's PHP MySQL Login System : https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
@@ -34,4 +34,7 @@ Progress of the building the functions:
    it.  
 
 (9/11/2020)
-1. Solve the home page's data fetching issue to display the account's full name from fullname variable.     
+1. Solve the home page's data fetching issue to display the account's full name from fullname variable.
+
+(10/11/2020)
+1. Research about how to create business functions that manages the flight schedules and its ticket sales.
