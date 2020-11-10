@@ -38,7 +38,7 @@ Progress of the building the functions:
 
 (10/11/2020)
 1. Research about how to create business functions that manages the flight schedules and its ticket sales.
-2. Create a database that has a set of tables of users between the customers, the staffs, and the managers. 
+2. Recreate a database that has a set of tables of users between the customers, the staffs, and the managers. 
    Furthermore, create another set of tables detailing airline industry related data such as flight schedules,
    ticket sales, flight crew management, aircraft maintenance, boarding status, and flight sales status. 
    
